@@ -1,6 +1,6 @@
-## Pathfinder's Sprint
+## Pathfinder Sprint
 
-Welcome to the Pathfinder's Sprint, a simple grid-based game where the player navigates from a starting point to a goal while avoiding obstacles. The game demonstrates basic pathfinding algorithms, smooth player movement animations, and running player animations.
+Welcome to the Pathfinder Sprint, a simple grid-based game where the player navigates from a starting point to a goal while avoiding obstacles. The game demonstrates basic pathfinding algorithms, smooth player movement animations, and running player animations.
 
 ## Features
 Pathfinding: The player uses the shortest path from their current position to the goal. Pathfinding is computed using Dijkstra's algorithm.
@@ -12,6 +12,15 @@ Running Animation: The player's running animation is displayed as they move. The
 Obstacles: The grid contains obstacles that the player must avoid. These obstacles are represented as red squares on the grid.
 
 Goal: The goal is represented as a green square. The player wins the game by reaching the goal.
+
+## The total time complexity of the game
+
+Dijkstra’s Algorithm: The priority queue operations have a time complexity of O(E log V), where E is the number of edges and V is the number of vertices (grid cells).
+
+
+Player Movement and Animation: The movement animation runs in O(steps), where "steps" is the number of intermediate frames for smooth transitions.
+
+
 
 ## Requirements
 Java Development Kit (JDK) version 8 or higher.
