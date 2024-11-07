@@ -19,21 +19,6 @@ IDE: You can use any IDE such as IntelliJ IDEA, Eclipse, or NetBeans to run the 
 Installation
 Clone or download the project repository to your local machine.
 
-## bash
-Copy code
-git clone https://github.com/yourusername/pathfinding-game.git
-Navigate to the project folder and compile the Java files.
-
-## bash
-Copy code
-cd pathfinding-game
-javac PathfindingGame.java
-Run the game by executing the PathfindingGame class.
-
-## bash
-Copy code
-java PathfindingGame
-
 ## Controls
 Arrow Keys: Use the up, down, left, and right arrow keys to move the player around the grid.
 Objective: Reach the goal (green square) while avoiding obstacles (red squares). The player wins when they reach the goal.
@@ -45,12 +30,11 @@ Animation: When the player moves, their movement is animated. The player's runni
 Winning the Game
 The player wins by reaching the goal. Once the player reaches the goal, a message will appear on the screen saying:
 
-## arduino
-Copy code
 "Congratulations! You've reached home!"
-Customization
-You can modify several aspects of the game:
 
+## Customization
+
+You can modify several aspects of the game if you are ready to test your skills:
 Obstacles: Add or remove obstacles in the grid array inside the PathfindingGame class.
 Player Speed: Adjust the ANIMATION_SPEED constant to make the player move faster or slower.
 Animation: The running animation can be customized by adjusting the currentFrame logic in the drawPlayer() method.
